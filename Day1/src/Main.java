@@ -26,5 +26,27 @@ public class Main {
         catch (Exception e){
             System.out.println("Not excepted error occurred :(");
         }
+
+        //part 2
+
+        /* File inputFile = new File("input.txt");
+        Roller roller = new Roller();
+        int countOfZeros = 0;
+        try(Scanner sc = new Scanner(inputFile)) {
+            while(sc.hasNextLine()) {
+                String movement = sc.nextLine();
+                char direction = movement.charAt(0);
+                int moveValue = Integer.parseInt(movement.substring(1));
+                countOfZeros += roller.howManyTimesRollerGoesThroughZero(direction, moveValue);
+                roller.changeRollerValue(direction, moveValue);
+                System.out.println(roller.value + " " + direction + " " + moveValue);
+            }
+            System.out.println(countOfZeros);
+        } catch (FileNotFoundException e){
+            System.out.println("File input.txt was not found :(");
+        }
+        catch (Exception e){
+            System.out.println("Not excepted error occurred :(");
+        }*/
     }
 }
