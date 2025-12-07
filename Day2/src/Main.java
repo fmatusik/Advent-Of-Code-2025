@@ -9,8 +9,6 @@ public class Main {
         File input = new File("input.txt");
         ArrayList<Interval> intervals = new ArrayList<>();
 
-        //part1
-
         try(Scanner sc = new Scanner(input)) {
             String[] intervalsVals = sc.next().split(",");
             for(String intervalVal : intervalsVals) {
@@ -30,7 +28,5 @@ public class Main {
         }
 
         System.out.println(sum);
-
-
     }
 }
